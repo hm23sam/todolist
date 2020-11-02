@@ -12,14 +12,36 @@
 
 <body>
     <h1>TodoList</h1>
-    <div>Topic:
-        <input type="text" id="title" name="title" />
-    </div>
-    <br>
-    <div>Content:
-        <input type="text" id="message" name="message" />
-    </div>
-    <button onclick="addList()">Confirm</button>
+
+    <table>
+        <tr>
+
+            <div>
+                <td>Topic:</td>
+                <td>
+                    <input type="text" id="title" name="title" />
+                </td>
+            </div>
+
+        </tr>
+        <tr>
+            <div>
+                <td>Content:</td>
+                <td>
+                    <input type="text" id="message" name="message" />
+                </td>
+            </div>
+        </tr>
+
+        <tr>
+            <td><button onclick="addList()">Confirm</button>
+            </td>
+            <td></td>
+        </tr>
+
+
+    </table>
+
 
 </body>
 
